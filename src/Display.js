@@ -6,7 +6,7 @@ function Display({displayName, description, imgURL}) {
         <div>
             <h1>{displayName}</h1>
             <p>{description}</p>
-            <img src={imgURL}></img>
+            <img src={imgURL} style={{height: "200px"}}></img>
             <Link to="/">BACK</Link>
         </div>
     )
